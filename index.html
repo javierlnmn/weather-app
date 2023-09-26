@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.d9633c29.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.3f55511a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.8746962a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.e2eb9ff7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.dc73b856.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.e9ded3dd.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.fccd7d2d.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.1d85fb5a.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <main class="min-h-screen bg-gray-50 text-gray-950"><h1 class="py-5 text-sky-600 text-center text-4xl sm:text-6xl font-extrabold" data-svelte-h="svelte-1j5009q">WeatherSeekr</h1> <div class="container w-4/5 mt-5 flex flex-col gap-5 max-w-2xl mx-auto"><form class="flex flex-col sm:flex-row gap-2 bg-"><input class="flex-1 appearance-none shadow-sm border text-gray-700 border-gray-200 p-2 focus:outline-none focus:border-gray-300 transition-colors rounded-lg" type="text" name="todo" placeholder="Where?"> <button typpe="submit" class="p-2 bg-sky-600 text-gray-50 rounded-lg hover:bg-sky-700 transition-all" data-svelte-h="svelte-o6xlr">See Today&#39;s Weather</button></form>   </div></main> 
+			
+			<script>
+				{
+					__sveltekit_1ncuw49 = {
+						assets: "/sveltekit-github-pages",
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.3f55511a.js"),
+						import("./_app/immutable/entry/app.dc73b856.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
